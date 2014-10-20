@@ -1,0 +1,1227 @@
+﻿Log file open, 10/19/14 21:17:42
+LogInit:Display: Running engine for game: Teste
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: D:/unreal/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.19-23.17.42:294][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.19-23.17.42:342][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.19-23.17.42:382][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.19-23.17.42:392][  0]LogInit: Object subsystem initialized
+[2014.10.19-23.17.42:396][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.10.19-23.17.42:396][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.19-23.17.42:396][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.10.19-23.17.42:396][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.19-23.17.42:397][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.19-23.17.42:397][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.19-23.17.42:412][  0]LogInit: Computer: MICRO-PC
+[2014.10.19-23.17.42:412][  0]LogInit: User: micro
+[2014.10.19-23.17.42:412][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.19-23.17.42:412][  0]LogInit: High frequency timer resolution =2.728212 MHz
+[2014.10.19-23.17.42:412][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.10.19-23.17.42:412][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.19-23.17.42:412][  0]LogMemory: Process Physical Memory: 62.08 MB used, 62.08 MB peak
+[2014.10.19-23.17.42:412][  0]LogMemory: Process Virtual Memory: 37.48 MB used, 37.48 MB peak
+[2014.10.19-23.17.42:412][  0]LogMemory: Physical Memory: 2022.52 MB used, 3944.61 MB total
+[2014.10.19-23.17.42:413][  0]LogMemory: Virtual Memory: 266.82 MB used, 8388608.00 MB total
+[2014.10.19-23.17.42:434][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2014.10.19-23.17.42:435][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.10.19-23.17.42:435][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.19-23.17.42:440][  0]LogRHI: Texture pool is 660 MB (70% of 944 MB)
+[2014.10.19-23.17.42:443][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.19-23.17.42:497][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.19-23.17.48:146][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-23.17.48:734][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-23.17.48:818][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.19-23.17.48:876][  0]LogDerivedDataCache: Loaded boot cache 0.06s 36MB C:/Users/micro/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.19-23.17.48:876][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/micro/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.10.19-23.17.48:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.19-23.17.48:877][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.19-23.17.48:955][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.19-23.17.48:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/micro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.10.19-23.17.49:180][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.19-23.17.49:180][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.19-23.17.49:502][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-23.17.49:506][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-23.17.49:737][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.19-23.17.50:870][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.19-23.17.51:117][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Binaries/Win64. Error: 0
+[2014.10.19-23.17.51:304][  0]SourceControl: Info Source control is disabled
+[2014.10.19-23.17.51:304][  0]SourceControl: Info Source control is disabled
+[2014.10.19-23.17.51:318][  0]SourceControl: Info Source control is disabled
+[2014.10.19-23.17.51:513][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.10.19-23.17.51:513][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.10.19-23.17.51:586][  0]LogEngine: Initializing Engine...
+[2014.10.19-23.17.51:738][  0]LogInit: XAudio2 using 'Headphone (VIA HD Audio)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.19-23.17.51:755][  0]LogInit: FAudioDevice initialized.
+[2014.10.19-23.17.51:791][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.19-23.17.51:822][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/micro/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.19-23.17.51:832][  0]LogInit: Texture streaming: Enabled
+[2014.10.19-23.17.51:907][  0]LogInit: Transaction tracking system initialized
+[2014.10.19-23.17.52:072][  0]BlueprintLog: New page: Editor Load
+[2014.10.19-23.17.52:115][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.10.19-23.17.52:115][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.10.19-23.17.52:745][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-23.17.53:156][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-23.17.53:494][  0]LogConsoleResponse:Display: 
+[2014.10.19-23.17.53:798][  0]SourceControl: Info Source control is disabled
+[2014.10.19-23.17.53:799][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.10.19-23.17.53:799][  0]LightingResults: New page: Lighting Build
+[2014.10.19-23.17.53:816][  0]MapCheck: New page: Map Check
+[2014.10.19-23.17.53:816][  0]LightingResults: New page: Lighting Build
+[2014.10.19-23.17.53:832][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000103AFBA0
+[2014.10.19-23.17.54:065][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.19-23.17.54:065][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2014.10.19-23.17.54:065][  0]Cmd: MAP CHECKDEP
+[2014.10.19-23.17.54:065][  0]MapCheck: New page: Untitled_1 - 19/10/2014 19:17:54
+[2014.10.19-23.17.54:176][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110,455ms to complete.
+[2014.10.19-23.17.54:176][  0]LogFileHelpers: Loading map 'Template_Default' took 0.376
+[2014.10.19-23.17.54:471][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.19-23.17.54:526][  0]LogCollectionManager: Loaded 0 collections in 0.001638 seconds
+[2014.10.19-23.17.54:566][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.10.19-23.17.54:612][  0]LogLoad: Full Startup: 15.06 seconds (BP compile: 0.07 seconds)
+[2014.10.19-23.17.54:625][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.17.54:838][  0]LogRenderer:Warning: Reallocating scene render targets to support 952x632.
+[2014.10.19-23.17.55:403][  2]LogAssetRegistry: Asset discovery search completed in 3.2971 seconds
+[2014.10.19-23.18.08:087][508]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.19-23.18.32:602][299]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra'
+[2014.10.19-23.18.33:447][353]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/NewFolder'
+[2014.10.19-23.18.45:261][189]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET'
+[2014.10.19-23.20.21:051][960]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET'
+[2014.10.19-23.20.43:032][517]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.21.58:961][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_04.tga)
+[2014.10.19-23.21.58:978][384]0.000030 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_04.c001_04
+
+[2014.10.19-23.21.58:980][384]LogTexture:Display: Building textures: c001_04 (AutoDXT)
+[2014.10.19-23.21.58:996][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_05.tga)
+[2014.10.19-23.21.59:013][384]0.000021 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_05.c001_05
+
+[2014.10.19-23.21.59:015][384]LogTexture:Display: Building textures: c001_05 (AutoDXT)
+[2014.10.19-23.21.59:093][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_06.tga)
+[2014.10.19-23.21.59:179][384]0.000043 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_06.c001_06
+
+[2014.10.19-23.21.59:185][384]LogTexture:Display: Building textures: c001_06 (AutoDXT)
+[2014.10.19-23.21.59:442][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_07.tga)
+[2014.10.19-23.21.59:498][384]0.000034 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_07.c001_07
+
+[2014.10.19-23.21.59:501][384]LogTexture:Display: Building textures: c001_07 (AutoDXT)
+[2014.10.19-23.22.00:413][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_08.tga)
+[2014.10.19-23.22.00:558][384]0.000060 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_08.c001_08
+
+[2014.10.19-23.22.00:575][384]LogTexture:Display: Building textures: c001_08 (BC5)
+[2014.10.19-23.22.00:912][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_09.tga)
+[2014.10.19-23.22.00:993][384]0.000048 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_09.c001_09
+
+[2014.10.19-23.22.01:035][384]LogTexture:Display: Building textures: c001_09 (BC5)
+[2014.10.19-23.22.01:230][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_10.tga)
+[2014.10.19-23.22.01:272][384]0.000023 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_10.c001_10
+
+[2014.10.19-23.22.01:299][384]LogTexture:Display: Building textures: c001_10 (AutoDXT)
+[2014.10.19-23.22.01:396][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_11.tga)
+[2014.10.19-23.22.01:456][384]0.000038 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_11.c001_11
+
+[2014.10.19-23.22.01:488][384]LogTexture:Display: Building textures: c001_11 (AutoDXT)
+[2014.10.19-23.22.01:663][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_12.tga)
+[2014.10.19-23.22.01:691][384]0.000018 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_12.c001_12
+
+[2014.10.19-23.22.01:694][384]LogTexture:Display: Building textures: c001_12 (AutoDXT)
+[2014.10.19-23.22.01:736][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_13.tga)
+[2014.10.19-23.22.01:784][384]0.000036 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_13.c001_13
+
+[2014.10.19-23.22.01:789][384]LogTexture:Display: Building textures: c001_13 (AutoDXT)
+[2014.10.19-23.22.01:922][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_14.tga)
+[2014.10.19-23.22.01:958][384]0.000029 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_14.c001_14
+
+[2014.10.19-23.22.01:972][384]LogTexture:Display: Building textures: c001_14 (BC5)
+[2014.10.19-23.22.02:051][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_15.tga)
+[2014.10.19-23.22.02:067][384]0.000014 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_15.c001_15
+
+[2014.10.19-23.22.02:069][384]LogTexture:Display: Building textures: c001_15 (AutoDXT)
+[2014.10.19-23.22.02:100][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_16.tga)
+[2014.10.19-23.22.02:131][384]0.000018 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_16.c001_16
+
+[2014.10.19-23.22.02:155][384]LogTexture:Display: Building textures: c001_16 (AutoDXT)
+[2014.10.19-23.22.02:216][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_17.tga)
+[2014.10.19-23.22.02:228][384]0.000013 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_17.c001_17
+
+[2014.10.19-23.22.02:253][384]LogTexture:Display: Building textures: c001_17 (AutoDXT)
+[2014.10.19-23.22.02:300][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\w001_00.tga)
+[2014.10.19-23.22.02:313][384]0.000032 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/w001_00.w001_00
+
+[2014.10.19-23.22.02:346][384]LogTexture:Display: Building textures: w001_00 (AutoDXT)
+[2014.10.19-23.22.02:433][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\w001_01.tga)
+[2014.10.19-23.22.02:464][384]0.000042 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/w001_01.w001_01
+
+[2014.10.19-23.22.02:499][384]LogTexture:Display: Building textures: w001_01 (AutoDXT)
+[2014.10.19-23.22.03:049][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_00.tga)
+[2014.10.19-23.22.03:050][384]0.000004 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_00.c001_00
+
+[2014.10.19-23.22.03:053][384]LogTexture:Display: Building textures: c001_00 (AutoDXT)
+[2014.10.19-23.22.03:058][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_01.tga)
+[2014.10.19-23.22.03:075][384]0.000006 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_01.c001_01
+
+[2014.10.19-23.22.03:091][384]LogTexture:Display: Building textures: c001_01 (BC5)
+[2014.10.19-23.22.03:099][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_02.tga)
+[2014.10.19-23.22.03:109][384]0.000017 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_02.c001_02
+
+[2014.10.19-23.22.03:116][384]LogTexture:Display: Building textures: c001_02 (AutoDXT)
+[2014.10.19-23.22.03:125][384]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\micro\Desktop\Documento do game\Testes\Personagem_Lightning\texture\c001_03.tga)
+[2014.10.19-23.22.03:138][384]0.000018 seconds to analyze Texture2D /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_03.c001_03
+
+[2014.10.19-23.22.03:146][384]LogTexture:Display: Building textures: c001_03 (BC5)
+[2014.10.19-23.22.03:162][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.19-23.22.03:162][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:163][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:164][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:164][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:165][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:166][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:166][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:167][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:168][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:168][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:169][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:170][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:171][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:171][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:172][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:173][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:173][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:174][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:175][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.03:176][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.22.11:419][988]LogTexture:Display: Building textures: c001_08 (AutoDXT)
+[2014.10.19-23.22.14:628][ 94]LogTexture:Display: Building textures: c001_03 (AutoDXT)
+[2014.10.19-23.22.24:505][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F944A0
+[2014.10.19-23.22.24:505][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E15E40
+[2014.10.19-23.22.24:506][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C104540
+[2014.10.19-23.22.24:506][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C156CA0
+[2014.10.19-23.22.24:506][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002698D8A0
+[2014.10.19-23.22.24:518][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C06BC40
+[2014.10.19-23.22.24:518][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000133D1D00
+[2014.10.19-23.22.24:518][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288D6520
+[2014.10.19-23.22.24:518][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000133D1260
+[2014.10.19-23.22.26:283][774]LogSavePackage: Save=43.804146ms
+[2014.10.19-23.22.26:283][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_002F3002384EF6552844E35A88240CC83B.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_00.uasset'
+[2014.10.19-23.22.26:310][774]LogSavePackage: Save=5.749920ms
+[2014.10.19-23.22.26:310][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_0155D5BCB549777B88E8886AB6EDE45F54.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_01.uasset'
+[2014.10.19-23.22.26:365][774]LogSavePackage: Save=37.598618ms
+[2014.10.19-23.22.26:365][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_02FF2E0F06455CBDD0085262BFCEDD5BD4.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_02.uasset'
+[2014.10.19-23.22.26:715][774]LogSavePackage: Save=328.345093ms
+[2014.10.19-23.22.26:715][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_03CDD5D32A4251764BFD7152A5428D98CF.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_03.uasset'
+[2014.10.19-23.22.26:780][774]LogSavePackage: Save=49.865993ms
+[2014.10.19-23.22.26:780][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_0478D53CEB481A7487A59DC2B7F26E95E0.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_04.uasset'
+[2014.10.19-23.22.27:607][774]LogSavePackage: Save=803.451477ms
+[2014.10.19-23.22.27:607][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_05DE4B5B284B2E74A44E735E8E2FA87721.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_05.uasset'
+[2014.10.19-23.22.30:828][774]LogSavePackage: Save=3198.312012ms
+[2014.10.19-23.22.30:828][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_0660DCECE14136903979E405AA2B09C586.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_06.uasset'
+[2014.10.19-23.22.33:958][774]LogSavePackage: Save=3105.489990ms
+[2014.10.19-23.22.33:958][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_07338491D94F3829D7BF4B7CB1E4E471BB.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_07.uasset'
+[2014.10.19-23.22.38:708][774]LogSavePackage: Save=4732.633301ms
+[2014.10.19-23.22.38:708][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_0860E25328474A6C114A27C4AEDB6C3FC5.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_08.uasset'
+[2014.10.19-23.22.42:446][774]LogSavePackage: Save=3715.052979ms
+[2014.10.19-23.22.42:446][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_096335B22949AD0A646F933C960A428DB5.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_09.uasset'
+[2014.10.19-23.22.42:639][774]LogSavePackage: Save=167.456192ms
+[2014.10.19-23.22.42:639][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_101BAFF1344DD1DFD1B9EAF0864D71C4A9.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_10.uasset'
+[2014.10.19-23.22.44:681][774]LogSavePackage: Save=2022.273926ms
+[2014.10.19-23.22.44:681][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_1197C778E54B5B4A958AD7AF8884FA167B.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_11.uasset'
+[2014.10.19-23.22.45:214][774]LogSavePackage: Save=513.964478ms
+[2014.10.19-23.22.45:214][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_126FA7DD5D4FA3546815FD53B3C3A13292.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_12.uasset'
+[2014.10.19-23.22.46:484][774]LogSavePackage: Save=1252.278809ms
+[2014.10.19-23.22.46:484][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_1370E923E54B946525EA01C5AB93FF52A0.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_13.uasset'
+[2014.10.19-23.22.48:600][774]LogSavePackage: Save=2098.375488ms
+[2014.10.19-23.22.48:600][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_14D604620248FC213BF9D0799B71C293E2.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_14.uasset'
+[2014.10.19-23.22.49:046][774]LogSavePackage: Save=429.012848ms
+[2014.10.19-23.22.49:046][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_152A0EA148412C8C5F9DB182B46054A682.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_15.uasset'
+[2014.10.19-23.22.49:581][774]LogSavePackage: Save=510.696381ms
+[2014.10.19-23.22.49:581][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_16D0CF674D4AC3DC19640423AA28114121.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_16.uasset'
+[2014.10.19-23.22.49:998][774]LogSavePackage: Save=385.161407ms
+[2014.10.19-23.22.49:998][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/c001_17BA30EE08453DEAFF74FB72A1AAA1241D.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/c001_17.uasset'
+[2014.10.19-23.22.50:375][774]LogSavePackage: Save=360.303375ms
+[2014.10.19-23.22.50:375][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/w001_00B2FF5AEA4FDCAB9384289AB10AA156EA.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/w001_00.uasset'
+[2014.10.19-23.22.51:735][774]LogSavePackage: Save=1340.889893ms
+[2014.10.19-23.22.51:735][774]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/w001_01417E549343D28344A5E820BF7722E954.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Textures/w001_01.uasset'
+[2014.10.19-23.23.05:870][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Material'
+[2014.10.19-23.23.06:315][926]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.23.07:362][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Model'
+[2014.10.19-23.23.07:865][970]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Material'
+[2014.10.19-23.23.09:479][  7]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-23.23.09:513][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.19-23.23.09:569][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.19-23.23.09:569][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.19-23.23.09:572][  7]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-23.23.09:609][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling.
+[2014.10.19-23.23.14:520][123]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.23.14:520][123]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.23.14:520][123]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.23.17:354][222]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.23.18:765][253]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra'
+[2014.10.19-23.23.19:682][316]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Skeleton'
+[2014.10.19-23.23.20:344][365]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Model'
+[2014.10.19-23.23.42:647][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.24.15:990][508]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.16:009][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.19-23.24.16:055][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.19-23.24.16:055][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.19-23.24.16:058][508]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.16:094][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling.
+[2014.10.19-23.24.19:767][542]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.24.19:767][542]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.24.19:767][542]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.24.37:464][879]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.37:474][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.24.37:498][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling.
+[2014.10.19-23.24.37:501][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.24.39:970][916]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.24.39:970][916]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.24.39:970][916]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.24.44:971][  7]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.45:023][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.24.47:651][ 48]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.24.47:651][ 48]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.24.47:651][ 48]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.24.48:062][ 54]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.50:693][101]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.24.50:694][101]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.24.50:694][101]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.24.58:184][245]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.24.58:185][245]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM4, Default Material will be used in game.
+[2014.10.19-23.24.58:185][245]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_07.c001_07
+[2014.10.19-23.24.58:210][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.24.58:216][245]MaterialEditorStats:Error: Error [SM4] (Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/Characters/Protagonists/Kethandra/KET_Textures/c001_07.c001_07
+[2014.10.19-23.25.02:600][327]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.02:634][327]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.25.05:322][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.25.05:322][371]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.25.05:323][371]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.25.07:733][416]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.07:775][416]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.13:200][502]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.13:267][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.25.19:638][613]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.19:652][613]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.22:681][663]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.25.22:681][663]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.25.22:681][663]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.25.23:844][686]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.23:874][686]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.25:755][720]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.25:775][720]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.27:951][756]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.27:982][756]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.31:144][807]LogMaterialEditor: Saving and Compiling material Material__4__c001_07_tga_001
+[2014.10.19-23.25.32:999][807]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.25.33:091][807]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.25.33:125][807]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.25.33:157][807]LogMaterial: 0.001554 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.25.49:305][807]LogSavePackage: Save=222.310440ms
+[2014.10.19-23.25.49:305][807]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__4__c001_07_tga_001B52CB933471DE088E13A8194272A3F1D.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__4__c001_07_tga_001.uasset'
+[2014.10.19-23.25.49:320][807]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.25.49:320][807]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 80 instructions
+[2014.10.19-23.25.49:320][807]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.25.49:320][807]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.19-23.26.55:032][175]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.26.55:053][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.26.55:081][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.26.55:084][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.27.00:845][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.27.00:905][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.27.11:446][466]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2014.10.19-23.27.11:446][466]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2014.10.19-23.27.11:446][466]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.27.11:446][466]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.19-23.27.15:609][551]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.27.15:628][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.19-23.27.15:719][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.27.15:722][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.27.15:724][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.19-23.27.23:860][704]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.27.23:906][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.19-23.27.32:932][859]LogMaterialEditor: Saving and Compiling material Material__4__c001_07_tga_001
+[2014.10.19-23.27.34:730][859]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-23.27.34:821][859]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.27.34:851][859]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.27.34:874][859]LogMaterial: 0.001082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.27.52:011][859]LogSavePackage: Save=216.331802ms
+[2014.10.19-23.27.52:011][859]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__4__c001_07_tga_001E45205894A253F1B800A2DB20030C297.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__4__c001_07_tga_001.uasset'
+[2014.10.19-23.27.52:027][859]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2014.10.19-23.27.52:027][859]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2014.10.19-23.27.52:027][859]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.27.52:027][859]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.19-23.28.02:624][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C1E4FE0
+[2014.10.19-23.28.02:647][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.10.19-23.28.02:712][891]LogSavePackage: Save=45.622555ms
+[2014.10.19-23.28.02:712][891]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Untitled_1_Auto16E9E8390476B70FDFC507D9468208C48.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2014.10.19-23.28.02:726][891]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.129
+[2014.10.19-23.28.02:726][891]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
+[2014.10.19-23.29.06:393][367]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.29.07:622][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/teste" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-23.29.07:655][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000398EC540
+[2014.10.19-23.29.07:747][367]LogSavePackage: Save=38.799038ms
+[2014.10.19-23.29.07:747][367]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/testeA282F0B54D00F9491D50379AF4DB2CF3.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap'
+[2014.10.19-23.29.07:778][367]LogFileHelpers: Saving map 'teste' took 1.365
+[2014.10.19-23.29.30:913][870]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.29.30:914][870]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.29.33:023][870]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.29.33:023][870]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.30.08:245][620]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.30.08:268][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-23.30.08:325][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-23.30.08:325][620]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.19-23.30.08:325][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-23.30.08:325][620]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.19-23.30.08:327][620]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.30.08:364][620]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling.
+[2014.10.19-23.30.12:813][675]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.30.12:813][675]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.30.12:813][675]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.30.14:078][693]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.30.14:091][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-23.30.14:149][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-23.30.14:149][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.19-23.30.14:149][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-23.30.14:149][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.19-23.30.14:151][693]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.30.14:734][700]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.30.14:735][700]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.30.14:735][700]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.30.45:955][182]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.30.45:961][182]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.19-23.30.45:991][182]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.19-23.30.47:855][211]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.30.47:855][211]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.30.47:855][211]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.30.48:455][220]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.30.48:495][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.19-23.30.49:217][232]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.30.49:217][232]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.30.49:217][232]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.31.00:685][406]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.31.00:691][406]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.19-23.31.00:720][406]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.19-23.31.00:723][406]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.19-23.31.01:357][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.31.01:357][416]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.31.01:357][416]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.31.05:318][478]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.31.05:354][478]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.19-23.31.06:039][488]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2014.10.19-23.31.06:040][488]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.31.06:040][488]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.31.21:773][728]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.31.21:807][728]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.19-23.31.22:590][740]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2014.10.19-23.31.22:590][740]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.31.22:590][740]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.31.38:948][972]LogMaterialEditor: Saving and Compiling material TutorialMaterial
+[2014.10.19-23.31.40:704][972]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.19-23.31.40:777][972]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling.
+[2014.10.19-23.31.40:796][972]LogMaterial: Missing cached shader map for material TutorialMaterial, compiling.
+[2014.10.19-23.31.40:805][972]LogMaterial: 0.003336 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.31.42:518][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial" FILE="../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" SILENT=true
+[2014.10.19-23.31.42:834][972]LogSavePackage: Save=294.365326ms
+[2014.10.19-23.31.42:834][972]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/TutorialMaterial2C51E1FF4C1752FC526906B393BA5AC6.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset'
+[2014.10.19-23.31.42:863][972]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.19-23.31.42:863][972]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.31.42:863][972]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.19-23.32.02:765][256]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.04:741][286]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.04:751][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.19-23.32.04:775][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.19-23.32.07:541][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.32.07:541][326]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.32.07:541][326]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.32.14:101][429]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.14:197][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.19-23.32.16:910][468]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.32.16:910][468]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.32.16:910][468]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.32.17:165][471]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.17:174][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.19-23.32.17:199][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.19-23.32.17:202][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.19-23.32.19:910][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.32.19:910][508]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.32.19:911][508]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.32.20:032][509]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.20:145][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.19-23.32.22:974][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2014.10.19-23.32.22:974][549]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.32.22:974][549]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.32.25:072][580]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-23.32.26:023][580]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.32.28:379][618]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.28:424][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.19-23.32.31:686][662]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2014.10.19-23.32.31:686][662]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.32.31:686][662]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.32.43:588][834]LogMaterialEditor: Saving and Compiling material Material__5__c001_11_tga_001
+[2014.10.19-23.32.45:329][834]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.19-23.32.45:403][834]LogMaterial: Missing cached shader map for material Material__5__c001_11_tga_001, compiling.
+[2014.10.19-23.32.45:432][834]LogMaterial: Missing cached shader map for material Material__5__c001_11_tga_001, compiling.
+[2014.10.19-23.32.45:454][834]LogMaterial: 0.008318 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.32.50:854][834]LogSavePackage: Save=295.539337ms
+[2014.10.19-23.32.50:854][834]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__5__c001_11_tga_001FF791D2E4E1A330E607B28AEE479978C.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__5__c001_11_tga_001.uasset'
+[2014.10.19-23.32.50:868][834]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.19-23.32.50:868][834]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.32.50:868][834]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.19-23.33.13:896][224]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.13:915][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.19-23.33.13:979][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.19-23.33.13:979][224]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.19-23.33.13:980][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.19-23.33.13:980][224]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.19-23.33.13:982][224]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.14:020][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_18, compiling.
+[2014.10.19-23.33.17:331][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.33.17:331][261]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.33.17:331][261]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.33.21:927][328]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.23:329][347]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.23:340][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.33.23:367][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.33.25:935][386]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.33.25:935][386]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.33.25:935][386]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.33.30:021][455]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.30:061][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.33.32:845][496]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.33.32:845][496]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.33.32:845][496]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.33.36:008][550]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.36:047][550]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.33.38:773][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 42 instructions
+[2014.10.19-23.33.38:773][592]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.33.38:773][592]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.33.58:454][904]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.33.58:518][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.34.01:463][947]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.34.01:463][947]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.34.01:463][947]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.34.10:495][ 87]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.34.10:606][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.34.13:507][130]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.34.13:507][130]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.34.13:507][130]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.34.30:138][390]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.34.33:020][434]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.34.34:827][460]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.34.34:866][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.34.37:640][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.34.37:640][499]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.34.37:640][499]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.34.42:612][575]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.34.44:465][602]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.34.44:511][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.34.47:420][644]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.34.47:420][644]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.34.47:420][644]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.34.58:642][818]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2014.10.19-23.34.58:642][818]LogSynthBenchmark:Display: ===============
+[2014.10.19-23.34.58:642][818]LogSynthBenchmark:Display: Main Processor:
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:          ... 0.025668 s/Run 'RayIntersect'
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:          ... 0.027278 s/Run 'Fractal'
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display: 
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   CPU Perf Index 0: 99.8
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   CPU Perf Index 1: 104.8
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:  
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display: Graphics:
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics'
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2014.10.19-23.34.58:695][818]LogSynthBenchmark:Display:   GPU Memory: 128/0/1632 MB
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:   GPU first test: 0.05s
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:          ... 0.109 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:          ... 0.120 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:          ... 0.103 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:          ... 0.575 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2014.10.19-23.34.58:783][818]LogSynthBenchmark:Display:          ... 0.034 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:   GPU second test: 0.43s
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.119 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.130 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.111 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.731 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.031 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.119 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.130 GigaPix/s, Confidence=100% 'TexHeavy'
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.111 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.731 GigaPix/s, Confidence=100% 'FillOnly'
+[2014.10.19-23.34.59:206][818]LogSynthBenchmark:Display:          ... 0.031 GigaPix/s, Confidence=100% 'Bandwidth'
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display: 
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPU Perf Index 0: 2.6
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPU Perf Index 1: 1.7
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPU Perf Index 2: 2.9
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPU Perf Index 3: 2.9
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPU Perf Index 4: 2.9
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   CPUIndex: 99.8
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:   GPUIndex: 2.6
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display: 
+[2014.10.19-23.34.59:207][818]LogSynthBenchmark:Display:          ... Total Time: 0.564478 sec
+[2014.10.19-23.34.59:378][821]LogContentStreaming: Texture pool size now 200 MB
+[2014.10.19-23.35.01:230][853]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.03:781][891]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.35.03:781][891]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.03:781][891]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.08:766][980]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.08:858][980]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.35.11:275][ 17]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.35.11:275][ 17]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.11:275][ 17]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.18:900][140]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.18:938][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.35.21:478][179]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.35.21:478][179]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.21:478][179]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.26:509][262]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.29:066][301]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.35.29:066][301]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.29:066][301]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.29:380][306]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.29:418][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.35.32:018][347]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.35.32:018][347]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.32:018][347]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.38:112][445]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.40:710][487]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.35.40:710][487]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.40:710][487]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.35.42:319][515]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.35.42:358][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.35.45:011][552]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.35.45:011][552]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.35.45:011][552]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.06:791][883]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.36.08:405][911]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.08:448][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.36.12:198][973]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.36.12:198][973]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.12:198][973]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.13:824][  1]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.13:864][  1]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.36.16:545][ 44]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.36.16:545][ 44]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.16:545][ 44]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.18:359][ 75]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.18:401][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.36.20:952][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.36.20:952][114]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.20:952][114]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.24:405][175]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.24:439][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.36.27:081][216]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.36.27:081][216]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.27:081][216]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.30:058][267]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.30:117][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.19-23.36.32:719][308]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2014.10.19-23.36.32:719][308]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.32:719][308]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.36.38:774][406]LogMaterialEditor: Saving and Compiling material Material__6__c001_16_tga_001
+[2014.10.19-23.36.40:502][406]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.19-23.36.40:561][406]LogMaterial: Missing cached shader map for material Material__6__c001_16_tga_001, compiling.
+[2014.10.19-23.36.40:589][406]LogMaterial: Missing cached shader map for material Material__6__c001_16_tga_001, compiling.
+[2014.10.19-23.36.40:628][406]LogMaterial: 0.006805 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.36.45:664][406]LogSavePackage: Save=245.215546ms
+[2014.10.19-23.36.45:664][406]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__6__c001_16_tga_00173B4E5E942FEE137816E7FB40DC3347A.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__6__c001_16_tga_001.uasset'
+[2014.10.19-23.36.45:675][406]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2014.10.19-23.36.45:675][406]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.36.45:675][406]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.19-23.36.56:062][593]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.36.56:077][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.19-23.36.56:137][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.19-23.36.56:137][593]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.10.19-23.36.56:137][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.19-23.36.56:137][593]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.10.19-23.36.56:140][593]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.36.56:174][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_19, compiling.
+[2014.10.19-23.36.58:403][615]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.36.58:403][615]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.36.58:403][615]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.37.00:132][645]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.37.03:766][711]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.05:939][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.37.05:939][741]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.37.05:939][741]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.37.06:642][753]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.06:652][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.37.06:677][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.37.08:863][786]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.37.08:863][786]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.37.08:863][786]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.37.09:623][798]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.09:710][798]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.37.12:204][834]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.37.12:204][834]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.37.12:204][834]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.37.20:812][987]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.20:821][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.19-23.37.20:891][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.37.20:894][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.19-23.37.23:150][ 18]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.37.23:150][ 18]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.37.23:150][ 18]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.37.23:917][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.23:960][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.19-23.37.26:600][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2014.10.19-23.37.26:600][ 69]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.37.26:600][ 69]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.37.31:807][162]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.31:817][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.37.31:842][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.37.31:845][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.19-23.37.31:847][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.37.34:578][203]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2014.10.19-23.37.34:578][203]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.37.34:578][203]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.37.35:653][221]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.37.35:690][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.37.38:259][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2014.10.19-23.37.38:260][258]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.37.38:260][258]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.38.13:297][847]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.38.17:101][909]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2014.10.19-23.38.17:101][909]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.38.17:101][909]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.38.22:333][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.38.22:367][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.38.24:930][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2014.10.19-23.38.24:930][ 41]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.38.24:930][ 41]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.38.42:617][303]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.38.42:657][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.19-23.38.45:320][345]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.38.45:320][345]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.38.45:321][345]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.38.57:478][502]LogMaterialEditor: Saving and Compiling material Material__7__c001_13_tga_001
+[2014.10.19-23.38.59:208][502]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.38.59:279][502]LogMaterial: Missing cached shader map for material Material__7__c001_13_tga_001, compiling.
+[2014.10.19-23.38.59:335][502]LogMaterial: Missing cached shader map for material Material__7__c001_13_tga_001, compiling.
+[2014.10.19-23.38.59:353][502]LogMaterial: 0.002785 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.39.04:892][502]LogSavePackage: Save=251.527008ms
+[2014.10.19-23.39.04:892][502]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__7__c001_13_tga_001B44F502D4CC99D5B1A5E2A9870644C39.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__7__c001_13_tga_001.uasset'
+[2014.10.19-23.39.04:902][502]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.19-23.39.04:902][502]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.04:902][502]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.19-23.39.06:093][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030B745E0
+[2014.10.19-23.39.06:093][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD87100
+[2014.10.19-23.39.06:094][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000408D9BC0
+[2014.10.19-23.39.06:105][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/teste" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Autosaves/Game/Level/teste_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.10.19-23.39.06:183][518]LogSavePackage: Save=29.140697ms
+[2014.10.19-23.39.06:183][518]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/teste_Auto28A2125D747FF6749377F1FBC321935CB.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Autosaves/Game/Level/teste_Auto2.umap'
+[2014.10.19-23.39.06:190][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/teste' took 0.119
+[2014.10.19-23.39.06:190][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2014.10.19-23.39.09:036][566]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.39.09:077][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.39.11:874][611]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2014.10.19-23.39.11:874][611]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.11:874][611]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.39.23:223][776]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.39.23:275][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.19-23.39.25:796][813]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.39.25:796][813]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.25:796][813]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.39.33:129][930]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.39.33:169][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.39.35:759][971]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2014.10.19-23.39.35:759][971]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.35:759][971]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.39.37:913][  7]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.39.37:961][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.19-23.39.40:480][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.10.19-23.39.40:480][ 47]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.40:480][ 47]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-23.39.47:386][141]LogMaterialEditor: Saving and Compiling material Material__7__c001_13_tga_001
+[2014.10.19-23.39.49:122][141]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.19-23.39.49:192][141]LogMaterial: Missing cached shader map for material Material__7__c001_13_tga_001, compiling.
+[2014.10.19-23.39.49:218][141]LogMaterial: Missing cached shader map for material Material__7__c001_13_tga_001, compiling.
+[2014.10.19-23.39.49:233][141]LogMaterial: 0.000994 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.39.54:560][141]LogSavePackage: Save=244.434448ms
+[2014.10.19-23.39.54:560][141]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__7__c001_13_tga_00159860049401B2D3312F84C90C12830A5.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__7__c001_13_tga_001.uasset'
+[2014.10.19-23.39.54:572][141]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2014.10.19-23.39.54:572][141]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.39.54:572][141]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.19-23.40.04:679][340]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.04:697][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.19-23.40.04:759][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.19-23.40.04:759][340]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.10.19-23.40.04:759][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.19-23.40.04:759][340]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.10.19-23.40.04:761][340]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.04:815][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling.
+[2014.10.19-23.40.06:872][368]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2014.10.19-23.40.06:872][368]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.40.06:872][368]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.40.09:431][425]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.11:583][455]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.40.11:583][455]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.40.11:583][455]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.40.22:078][636]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.22:088][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.40.22:115][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.40.24:360][672]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2014.10.19-23.40.24:360][672]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.19-23.40.24:360][672]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.19-23.40.26:285][705]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.26:352][705]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.40.28:719][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.40.28:719][741]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.40.28:719][741]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.40.35:440][862]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.35:449][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.19-23.40.35:475][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.40.35:478][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.19-23.40.37:765][896]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.40.37:926][899]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2014.10.19-23.40.37:926][899]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.40.37:926][899]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.19-23.40.46:145][ 47]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.40.46:179][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.19-23.40.48:677][ 86]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2014.10.19-23.40.48:677][ 86]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.40.48:677][ 86]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.41.09:698][467]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.41.09:733][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.41.13:340][527]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2014.10.19-23.41.13:340][527]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.41.13:340][527]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.41.19:673][633]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.41.19:713][633]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.41.22:372][676]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.10.19-23.41.22:372][676]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.41.22:372][676]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.41.23:559][696]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.41.23:599][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.19-23.41.26:327][740]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2014.10.19-23.41.26:327][740]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.41.26:327][740]MaterialEditorStats: Info Texture samplers: 2/16
+[2014.10.19-23.41.31:920][829]LogMaterialEditor: Saving and Compiling material Material__3__c001_05_tga_001
+[2014.10.19-23.41.33:647][829]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.19-23.41.33:722][829]LogMaterial: Missing cached shader map for material Material__3__c001_05_tga_001, compiling.
+[2014.10.19-23.41.33:752][829]LogMaterial: Missing cached shader map for material Material__3__c001_05_tga_001, compiling.
+[2014.10.19-23.41.33:767][829]LogMaterial: 0.001081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.41.38:856][829]LogSavePackage: Save=182.582214ms
+[2014.10.19-23.41.38:856][829]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__3__c001_05_tga_0015064EA6744CF0BC2F146CA96135A3C4B.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__3__c001_05_tga_001.uasset'
+[2014.10.19-23.41.38:865][829]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.10.19-23.41.38:865][829]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.19-23.41.38:865][829]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.19-23.41.46:402][974]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.19-23.41.46:445][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.19-23.41.46:498][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.19-23.41.46:498][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.10.19-23.41.46:498][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.19-23.41.46:498][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.10.19-23.41.46:501][974]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.19-23.41.46:548][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.19-23.41.46:551][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.41.46:554][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.19-23.41.55:669][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2014.10.19-23.41.55:669][148]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2014.10.19-23.41.55:669][148]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.41.55:669][148]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.19-23.42.03:098][332]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.19-23.42.03:168][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.19-23.42.12:270][532]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2014.10.19-23.42.12:270][532]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2014.10.19-23.42.12:270][532]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.42.12:270][532]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.19-23.42.19:150][693]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.19-23.42.28:011][877]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2014.10.19-23.42.28:011][877]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2014.10.19-23.42.28:011][877]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.42.28:011][877]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.19-23.42.36:299][ 77]LogMaterialEditor: Saving and Compiling material Material__4__c001_07_tga_001
+[2014.10.19-23.42.38:027][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.19-23.42.38:113][ 77]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.42.38:144][ 77]LogMaterial: Missing cached shader map for material Material__4__c001_07_tga_001, compiling.
+[2014.10.19-23.42.38:167][ 77]LogMaterial: 0.001108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-23.42.54:868][ 77]LogSavePackage: Save=211.773865ms
+[2014.10.19-23.42.54:868][ 77]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Material__4__c001_07_tga_0011140C20A4435ABEECF583490671D3A54.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Material/Material__4__c001_07_tga_001.uasset'
+[2014.10.19-23.42.54:883][ 77]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2014.10.19-23.42.54:883][ 77]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 80 instructions
+[2014.10.19-23.42.54:883][ 77]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.19-23.42.54:883][ 77]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.19-23.43.33:141][375]LogSavePackage: Save=219.829697ms
+[2014.10.19-23.43.33:141][375]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Lightning825C8A174690A1A78AEB63A795F15549.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Model/Lightning.uasset'
+[2014.10.19-23.43.53:188][924]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.43.57:042][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000133D0720
+[2014.10.19-23.43.57:042][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002698C220
+[2014.10.19-23.43.57:042][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005296E0C0
+[2014.10.19-23.43.57:043][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028035E40
+[2014.10.19-23.43.58:714][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/teste" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-23.43.58:780][  5]LogSavePackage: Save=28.827305ms
+[2014.10.19-23.43.58:780][  5]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/teste1948ECE44E18CEBFA0BE1F88CC069818.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap'
+[2014.10.19-23.43.58:801][  5]LogFileHelpers: Saving map 'teste' took 0.359
+[2014.10.19-23.44.00:799][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/teste" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-23.44.00:895][ 96]LogSavePackage: Save=26.208374ms
+[2014.10.19-23.44.00:895][ 96]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/teste62DF28BB4AD7BA3772CCA18D78EE4C70.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap'
+[2014.10.19-23.44.09:793][286]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.19-23.44.46:867][320]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra'
+[2014.10.19-23.44.47:959][390]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/NewFolder'
+[2014.10.19-23.45.04:693][521]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_BluePrints'
+[2014.10.19-23.45.07:085][680]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.45.20:401][267]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_BluePrints'
+[2014.10.19-23.45.40:222][580]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.45.46:724][778]LogRenderer:Warning: Reallocating scene render targets to support 1152x632.
+[2014.10.19-23.45.49:090][813]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.49:091][813]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.49:094][813]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.49:095][813]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:662][908]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:663][908]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:664][908]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:723][909]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:724][909]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:725][909]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:785][910]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.53:786][910]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:151][916]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:152][916]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:211][917]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:334][919]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:335][919]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.54:337][919]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.45.55:063][931]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.13:559][329]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Model'
+[2014.10.19-23.46.16:770][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.19-23.46.19:670][477]BlueprintLog: New page: Compile KethandraBP
+[2014.10.19-23.46.19:984][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000349D0CC0
+[2014.10.19-23.46.19:984][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000406F9BC0
+[2014.10.19-23.46.19:984][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A696160
+[2014.10.19-23.46.20:052][477]BlueprintEditorCompileResults: Info [1720,19] Compile of KethandraBP successful! [in 87 ms]
+[2014.10.19-23.46.21:518][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:519][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:519][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:520][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:521][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:522][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:522][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:523][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:524][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:525][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.21:528][505]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.46.42:134][972]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.46.45:176][ 44]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.46.51:259][165]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.47.06:098][450]Cmd: MODE GRID=0
+[2014.10.19-23.47.14:128][606]Cmd: MODE GRID=1
+[2014.10.19-23.47.19:902][708]BlueprintLog: New page: Compile KethandraBP
+[2014.10.19-23.47.20:128][708]BlueprintEditorCompileResults: Info [1780,42] Compile of KethandraBP successful! [in 89 ms]
+[2014.10.19-23.47.29:265][924]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.19-23.47.31:304][ 41]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.48.13:989][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/teste" FILE="C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-23.48.14:091][368]LogSavePackage: Save=29.922161ms
+[2014.10.19-23.48.14:091][368]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/testeF3FF18914AF5D2CB0E10B89CF53DB8F0.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Level/teste.umap'
+[2014.10.19-23.48.16:543][445]LogSavePackage: Save=209.992477ms
+[2014.10.19-23.48.16:543][445]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KethandraBP8772FCBD4FDF5C68E6F3F1B7E05F7738.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP.uasset'
+[2014.10.19-23.48.40:478][970]LogUnrealMath: Expression Error : No value recognized
+[2014.10.19-23.48.40:478][970]LogUnrealMath: Expression Error : Error in expression
+[2014.10.19-23.48.44:387][ 38]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.48.44:513][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.19-23.49.12:416][539]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.49.39:003][213]BlueprintLog: New page: Compile KethandraBP
+[2014.10.19-23.49.39:223][213]BlueprintEditorCompileResults: Info [1919,52] Compile of KethandraBP successful! [in 84 ms]
+[2014.10.19-23.49.52:089][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:090][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:090][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:091][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:092][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:093][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:093][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:094][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:095][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:095][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:096][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:097][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:098][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:098][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.49.52:099][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.50.00:153][757]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.50.01:979][790]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.50.29:290][327]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.50.37:289][594]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.50.40:360][649]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.50.46:006][776]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.51.27:514][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.27:515][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.27:519][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.27:520][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.31:717][661]BlueprintLog: New page: Compile KethandraBP
+[2014.10.19-23.51.31:919][661]BlueprintEditorCompileResults: Info [2032,21] Compile of KethandraBP successful! [in 67 ms]
+[2014.10.19-23.51.33:515][693]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.33:516][693]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.33:519][693]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.33:519][693]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.56:150][556]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.56:151][556]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.59:725][643]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.51.59:771][646]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.01:396][744]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:060][785]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:061][785]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:092][787]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:138][790]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:170][792]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:171][792]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:233][796]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:597][819]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:598][819]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:612][820]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:644][822]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:661][823]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:662][823]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.02:693][825]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.03:472][874]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-23.52.38:824][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Textures'
+[2014.10.19-23.52.39:507][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Skeleton'
+[2014.10.19-23.52.41:631][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.54.32:919][538]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.19-23.54.47:010][ 27]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.54.47:010][ 27]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.54.48:315][ 27]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.54.48:315][ 27]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.54.48:445][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Protagonists/Kethandra/KET_Animations'
+[2014.10.19-23.54.48:549][ 28]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.54.52:305][ 80]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.19-23.55.19:072][797]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.55.32:775][154]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.56.09:361][898]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.19-23.56.56:773][990]LogSavePackage: Save=180.257980ms
+[2014.10.19-23.56.56:773][990]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/NewBlendSpace1DD7CE412A468744F4DB328382B04B202C.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/NewBlendSpace1D.uasset'
+[2014.10.19-23.57.51:691][280]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.57.52:037][280]LogSavePackage: Save=189.804901ms
+[2014.10.19-23.57.52:037][280]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_1D_Parada_anda_correD9E2014F4D9BEB676D57EBBB729BE329.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_1D_Parada_anda_corre.uasset'
+[2014.10.19-23.57.52:190][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002698E5C0
+[2014.10.19-23.57.52:190][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000406FB6A0
+[2014.10.19-23.57.52:191][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040295D00
+[2014.10.19-23.57.52:191][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030D49F80
+[2014.10.19-23.57.52:191][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038D2AA20
+[2014.10.19-23.57.52:191][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039CC94E0
+[2014.10.19-23.58.14:167][733]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.14:506][733]LogSavePackage: Save=181.675034ms
+[2014.10.19-23.58.14:507][733]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_AgaichadoParadoDC613BE340DFB1742304AFBFBD021FA3.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_AgaichadoParado.uasset'
+[2014.10.19-23.58.23:639][957]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.24:008][957]LogSavePackage: Save=180.875610ms
+[2014.10.19-23.58.24:008][957]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_andarDCF8E88B461324177CD359B2364AABAB.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_andar.uasset'
+[2014.10.19-23.58.24:195][957]LogSavePackage: Save=9.358144ms
+[2014.10.19-23.58.24:195][957]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_1D_Parada_anda_correE364E23243CAA2CFA6A912919FEB007D.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_1D_Parada_anda_corre.uasset'
+[2014.10.19-23.58.24:424][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/teste' took 0.024
+[2014.10.19-23.58.24:431][958]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP] ([1] browsable assets)...
+[2014.10.19-23.58.24:481][958]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP.KethandraBP]
+[2014.10.19-23.58.24:481][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP]
+[2014.10.19-23.58.24:738][958]LogSavePackage: Save=214.187897ms
+[2014.10.19-23.58.24:738][958]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KethandraBP_Auto3EF5E8949429833864C1A29BCD55B05B5.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/Autosaves/Game/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP_Auto3.uasset'
+[2014.10.19-23.58.24:744][958]LogFileHelpers: Auto-saving content packages took 0.320
+[2014.10.19-23.58.27:779][ 22]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.35:998][240]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.36:350][240]LogSavePackage: Save=182.683380ms
+[2014.10.19-23.58.36:350][240]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_andar_Espada5278D8014B1200313578D982A6DCC59B.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_andar_Espada.uasset'
+[2014.10.19-23.58.36:372][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.19-23.58.47:246][463]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.47:624][463]LogSavePackage: Save=216.441391ms
+[2014.10.19-23.58.47:624][463]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET__andar_Espada_guardarC15AFDAC419D6D0804E9CCB260E5BD51.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET__andar_Espada_guardar.uasset'
+[2014.10.19-23.58.57:849][708]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.58.58:261][708]LogSavePackage: Save=183.683304ms
+[2014.10.19-23.58.58:261][708]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_andar_Espada_guardar0327F6DC4BF2D14C95D41D92BD4D5B0C.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_andar_Espada_guardar.uasset'
+[2014.10.19-23.59.04:080][944]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.59.09:180][ 48]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.59.20:457][388]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.59.20:881][388]LogSavePackage: Save=185.784317ms
+[2014.10.19-23.59.20:881][388]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_andar_Espada_pegar6297FAF949E7D837A7A698BDE2E2673F.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_andar_Espada_pegar.uasset'
+[2014.10.19-23.59.29:595][591]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.59.46:696][955]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-23.59.47:012][955]LogSavePackage: Save=169.767593ms
+[2014.10.19-23.59.47:012][955]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KET_andarAgaichado484B84BE46743021C1BCF78557CD4B8F.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_Animations/KET_andarAgaichado.uasset'
+[2014.10.20-00.00.31:121][808]LogSavePackage: Save=25.044607ms
+[2014.10.20-00.00.31:121][808]LogSavePackage: Moving 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Saved/KethandraBPCE2A923E4A09D276F92097B400A204B6.tmp' to 'C:/Users/micro/Desktop/Documento do game/AnimesTestes/Teste/Content/Characters/Protagonists/Kethandra/KET_BluePrints/KethandraBP.uasset'
+[2014.10.20-00.00.33:359][845]Cmd: QUIT_EDITOR
+[2014.10.20-00.00.33:837][845]LogExit: Preparing to exit.
+[2014.10.20-00.00.34:539][845]LogExit: Editor shut down
+[2014.10.20-00.00.34:540][845]LogExit: Transaction tracking system shut down
+[2014.10.20-00.00.34:540][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006B61080
+[2014.10.20-00.00.34:541][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC86520
+[2014.10.20-00.00.34:542][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F96CA0
+[2014.10.20-00.00.34:542][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023F96DE0
+[2014.10.20-00.00.34:542][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD18860
+[2014.10.20-00.00.34:543][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052BA1940
+[2014.10.20-00.00.34:543][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006AA4CC0
+[2014.10.20-00.00.34:909][845]LogExit: Object subsystem successfully closed.
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module SynthBenchmark (168)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module MaterialEditor (167)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module EditorWidgets (165)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module CollectionManager (164)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module SuperSearch (162)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module SceneOutliner (161)
+[2014.10.20-00.00.35:353][845]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.10.20-00.00.35:358][845]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.10.20-00.00.35:358][845]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.10.20-00.00.35:642][845]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.10.20-00.00.35:643][845]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.10.20-00.00.35:645][845]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.10.20-00.00.35:646][845]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.10.20-00.00.35:646][845]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.10.20-00.00.35:646][845]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.10.20-00.00.35:646][845]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.10.20-00.00.35:649][845]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.10.20-00.00.35:650][845]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.10.20-00.00.35:729][845]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.10.20-00.00.35:729][845]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.10.20-00.00.35:747][845]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.10.20-00.00.35:750][845]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.10.20-00.00.35:909][845]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.10.20-00.00.35:913][845]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.10.20-00.00.35:917][845]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.10.20-00.00.35:917][845]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.10.20-00.00.35:917][845]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.10.20-00.00.35:917][845]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.10.20-00.00.35:917][845]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.10.20-00.00.35:920][845]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.10.20-00.00.35:920][845]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.10.20-00.00.35:920][845]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.10.20-00.00.35:920][845]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.10.20-00.00.35:932][845]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.10.20-00.00.35:932][845]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.10.20-00.00.35:940][845]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.10.20-00.00.35:941][845]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.10.20-00.00.35:941][845]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.10.20-00.00.35:941][845]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.10.20-00.00.35:942][845]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.10.20-00.00.35:950][845]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.10.20-00.00.35:950][845]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.10.20-00.00.36:050][845]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.10.20-00.00.36:050][845]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.10.20-00.00.36:054][845]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.10.20-00.00.36:054][845]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.10.20-00.00.36:056][845]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.10.20-00.00.36:056][845]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.10.20-00.00.36:056][845]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.10.20-00.00.36:056][845]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.10.20-00.00.36:057][845]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.10.20-00.00.36:060][845]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.10.20-00.00.36:120][845]LogDerivedDataCache: Shutdown
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.10.20-00.00.36:120][845]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.20-00.00.36:121][845]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.20-00.00.36:154][845]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.20-00.00.36:155][845]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.20-00.00.36:155][845]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.20-00.00.36:155][845]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.20-00.00.36:155][845]LogExit: Exiting.
+[2014.10.20-00.00.36:175][845]Log file closed, 10/19/14 22:00:36
